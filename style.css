@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@200;300;400;500;600;700&family=Quicksand:wght@300&display=swap");
+body {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+h1 {
+  font-family: "Quicksand";
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-family: "Quicksand";
+  font-weight: bold;
+}
+th:hover {
+  font-size: 30px;
+  cursor: pointer;
+}
+th {
+  transition: font-size 0.3s linear;
+  box-sizing: 10px;
+  margin: 0px;
+}
+table {
+  border-radius: 5px;
+  background-color: #009879;
+  margin: 60px auto 0px auto;
+  height: 85px;
+  width: 65%;
+  border-collapse: collapse;
+}
+@media only screen and (max-height: 1200px) {
+  tr,
+  th,
+  td {
+    font-size: 25px;
+  }
+  table {
+    height: 180px;
+  }
+}
